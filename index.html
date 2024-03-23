@@ -15,7 +15,7 @@
     />
     
     <script type="module" crossorigin src="/project-work-grp16/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-work-grp16/assets/index-b9d0a975.css">
+    <link rel="stylesheet" href="/project-work-grp16/assets/index-1c37b8bb.css">
   </head>
   <body>
     <header class="header">
@@ -387,7 +387,53 @@
 </section>
 
       
-      
+      <section>
+    <div class="container">
+        <h2 class="contact-us-tittle">Contact Us</h2>
+        <div class="contact-us-form-container">
+            <p class="contact-us-form-descr">
+                Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back
+                to you shortly.
+            </p>
+            <form class="contact-us-form">
+                <div class="contact-us-input-container">
+                    <div>
+                        <label for="contact-us-input-name"></label>
+                        <input type="text" id="contact-us-input-name" placeholder="Name" class="contact-us-input"
+                            name="user-name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ]+" required>
+                    </div>
+                    <div>
+                        <label for="contact-us-input-email"></label>
+                        <input type="email" id="contact-us-input-email" placeholder="Email" class="contact-us-input"
+                            name="user-email" required>
+                    </div>
+                    <div>
+                        <label for="contact-us-input-tel"></label>
+                        <input type="tel" id="contact-us-input-tel" placeholder="+380" class="contact-us-input"
+                            name="user-tel" pattern="[0-9+]+" required>
+                    </div>
+                    <div>
+                        <label for="contact-us-comment"></label>
+                        <textarea id="contact-us-comment" placeholder="Comment"
+                            class="contact-us-textarea" name="user-comment"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="contact-us-btn">Send</button>
+            </form>
+        </div>
+
+        <picture>
+            <source srcset="/project-work-grp16/assets/contact-us-desktop-9f465cbc.png 1x, /project-work-grp16/assets/contact-us-desktop@2x-9baa9551.png 2x"
+                media="(min-width: 1280px)">
+            <source srcset="/project-work-grp16/assets/contact-us-tablet-cf48427f.png 1x, /project-work-grp16/assets/contact-us-tablet@2x-bf0ded3c.png 2x"
+                media="(min-width: 768px)">
+            <source srcset="/project-work-grp16/assets/contact-us-mobile-1434ad22.png 1x, /project-work-grp16/assets/contact-us-mobile@2x-6c949da5.png 2x">
+            <img src="/project-work-grp16/assets/contact-us-mobile-1434ad22.png" alt="watch">
+        </picture>
+    </div>
+</section>
+
+
 
       
     </main>
